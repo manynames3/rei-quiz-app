@@ -8,7 +8,9 @@ This quiz app is hosted on Amazon Web Services(AWS)'s S3.
 DEMO: https://reiquiz2.s3.amazonaws.com/index.html
 
 
-<Background Story>
+================
+================
+Background Story
 
 Since I was around 10 years old, Real Estate has been one of my biggest interests.
 
