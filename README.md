@@ -17,6 +17,12 @@ The project presents multiple-choice questions, tracks score across a short game
 - Shows progress through the quiz with a progress bar
 - Stores the most recent score and high scores locally in the browser
 
+## Why I Built It
+
+Real estate has been one of my biggest interests since I was around 10 years old. While learning HTML, CSS, and JavaScript and working through tutorials, I wanted to build something connected to that interest so the process would feel more real, more motivating, and more fun than building something completely random.
+
+This project came out of that idea. I wanted to practice core front-end skills by building a small interactive app around a subject I genuinely care about. For me, that made the learning stick more because I was not just following exercises, I was building something that reflected one of my long-term interests.
+
 ## Current Project Notes
 
 The app is branded as a real-estate-investing quiz, but the current `game.js` implementation fetches general multiple-choice trivia questions from the Open Trivia Database API. There is also a local `questions.json` file in the repo, which suggests the project may have originally been intended to use a local question bank instead.
@@ -31,6 +37,16 @@ If you continue developing this project, one clear improvement would be to recon
 - Browser `localStorage`
 - [Open Trivia Database](https://opentdb.com/) for the current question source
 - Amazon S3 for hosting the live demo
+
+## Skills Demonstrated
+
+- Building a multi-page browser app with plain HTML, CSS, and JavaScript
+- Manipulating the DOM to render questions, scores, and progress state
+- Handling user interaction and game-state transitions with event listeners
+- Fetching and transforming API data for use in the UI
+- Persisting browser-side data with `localStorage`
+- Structuring a small project into separate pages, scripts, and stylesheets
+- Deploying a static front-end project to the web
 
 ## Project Structure
 
@@ -74,13 +90,9 @@ Then open `http://localhost:8000`.
 - The final score is saved as `mostRecentScore`
 - High scores are persisted in the browser, so they are device- and browser-specific
 
-## Why This Project Exists
+## What I Learned
 
-Real estate has been one of my biggest interests since I was around 10 years old. While learning HTML, CSS, and JavaScript and working through tutorials, I wanted to build something connected to that interest so the learning process felt more enjoyable and more personal.
-
-This project started from that idea: create a simple quiz app as a way to practice front-end fundamentals while building around a topic I genuinely care about.
-
-This repo also works well as a portfolio project for practicing:
+This project gave me hands-on practice with the kinds of front-end fundamentals that matter in real applications:
 
 - DOM selection and updates
 - Event handling
@@ -88,6 +100,8 @@ This repo also works well as a portfolio project for practicing:
 - Fetching remote data from an API
 - Persisting data with `localStorage`
 - Building a small multi-page browser app without a framework
+
+It also helped reinforce an important product lesson: the strongest projects are the ones where the content, branding, and implementation all line up. In its current state, the app experience is solid, but the content source does not yet fully match the REI concept, which makes the next improvement especially clear.
 
 ## Possible Next Improvements
 
@@ -97,6 +111,10 @@ This repo also works well as a portfolio project for practicing:
 - Improve mobile responsiveness and polish
 - Add accessibility improvements for keyboard and screen-reader users
 - Add a timer or streak system
+
+## Portfolio Perspective
+
+I see this project as a strong snapshot of where I was growing as a front-end developer: taking foundational web technologies, applying them to an idea I care about, and shipping something playable to the web. It is a simple project by design, but it shows initiative, curiosity, and a willingness to learn by building.
 
 ## License
 
