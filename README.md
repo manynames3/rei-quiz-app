@@ -76,7 +76,11 @@ Then open `http://localhost:8000`.
 
 ## Why This Project Exists
 
-This repo works well as a portfolio project for practicing front-end fundamentals:
+Real estate has been one of my biggest interests since I was around 10 years old. While learning HTML, CSS, and JavaScript and working through tutorials, I wanted to build something connected to that interest so the learning process felt more enjoyable and more personal.
+
+This project started from that idea: create a simple quiz app as a way to practice front-end fundamentals while building around a topic I genuinely care about.
+
+This repo also works well as a portfolio project for practicing:
 
 - DOM selection and updates
 - Event handling
